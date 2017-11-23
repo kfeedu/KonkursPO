@@ -7,6 +7,7 @@ import org.springframework.stereotype.Repository;
 import javax.transaction.Transactional;
 
 @Transactional
+@Repository("userRepository")
 public interface UserDao extends JpaRepository<User,Long> {
     public User findOneByEmail(String email);
 }
