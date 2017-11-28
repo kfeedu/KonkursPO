@@ -19,4 +19,15 @@ public class HomePageController {
 
         return "login";
     }
+
+    @RequestMapping(value = {"/pu1"}, method = RequestMethod.GET)
+    public String pu1() {
+        return "pu1_base_details";
+    }
+
+    @RequestMapping(value = {"/id_confirm"}, method = RequestMethod.GET)
+    public String pu1_id_confirm() {
+        return "pu1_id_confirm";
+    }
+
 }
