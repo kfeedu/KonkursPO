@@ -30,4 +30,20 @@ public class HomePageController {
         return "pu1_id_confirm";
     }
 
+    @RequestMapping(value = {"/submit_entry"}, method = RequestMethod.GET)
+    public String pu1_submit_entry() {
+        return "pu1_submit_work";
+    }
+
+    @RequestMapping(value = {"/payment_confirmation"}, method = RequestMethod.GET)
+    public String pu1_payment_confirmation() {
+        return "pu1_payment_confirmation";
+    }
+
+    @RequestMapping(value = {"/complete"}, method = RequestMethod.GET)
+    public String pu1_complete() {
+        return "pu1_complete";
+    }
+
+
 }

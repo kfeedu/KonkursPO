@@ -33,7 +33,7 @@
 <body class="navbar-bottom pace-done">
 <div class="container">
     <div class="panel panel-flat">
-        <div class="panel-heading">
+        <div class="panel-heading" style="padding-top: 20px;">
             <h1 class="panel-title text-info">ArteART Prize Laguna 17.18</h1>
         </div>
     </div>
@@ -746,7 +746,7 @@
                         <div class="col-lg-1"></div>
                         <div class="text-center col-lg-10" style="margin-left:0;margin-right:0px;padding-right:0;">
                             <div class="form-group"></div>
-                            <button type="submit" class="btn btn-primary">SUBMIT</button>
+                            <button type="submit" class="btn btn-info">SUBMIT</button>
 
 
                         </div>
@@ -762,12 +762,12 @@
             <div class="col-lg-1"></div>
             <div class="col-lg-5 text-right" style="margin-left:0;margin-right:0px;padding-right:0;">
                 <form method="GET" action="/id_confirm">
-                    <button type="submit" class="btn btn-primary">Next(below 25)</button>
+                    <button type="submit" class="btn btn-info">Next(below 25)</button>
                 </form>
             </div>
             <div class="col-lg-5 text-left" style="margin-left:0;margin-right:0px;padding-right:0;">
                 <form method="GET" action="/id_confirm">
-                    <button type="submit" class="btn btn-primary">Next(above 25)</button>
+                    <button type="submit" class="btn btn-info">Next(above 25)</button>
                 </form>
             </div>
             <div class="col-lg-1"></div>

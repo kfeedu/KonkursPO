@@ -26,7 +26,11 @@
 <body>
 
 <div class="container">
-
+    <div class="panel panel-flat">
+        <div class="panel-heading" style="padding-top: 20px;">
+            <h1 class="panel-title text-info">ArteART Prize Laguna 17.18</h1>
+        </div>
+    </div>
     <form method="POST" action="${contextPath}/login" class="form-signin">
         <h2 class="form-heading">Log in</h2>
 
@@ -38,18 +42,16 @@
             <span>${error}</span>
             <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}"/>
 
-            <button class="btn btn-lg btn-primary btn-block" type="submit">Log In</button>
-            <h4 class="text-center"><a href="/registration">Create an account</a></h4>
+            <button class="btn btn-lg btn-info btn-block" type="submit">Log In</button>
+            <h4 class="text-center"><a href="/registration" class="text-info">Create an account</a></h4>
         </div>
 
     </form>
 
     <div class="btn-group btn-group-justified">
-        <form method="GET" action="${contextPath}/pu1">
-            <input type="submit" class="btn btn-primary" value="PU1">
-        </form>
-        <a href="#" class="btn btn-primary">PU2</a>
-        <a href="#" class="btn btn-primary">PU3</a>
+        <a href="/pu1" class="btn btn-info">PU1</a>
+        <a href="#" class="btn btn-info">PU2</a>
+        <a href="#" class="btn btn-info">PU3</a>
     </div>
 </div>
 </body>

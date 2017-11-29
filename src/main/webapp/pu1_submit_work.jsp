@@ -1,3 +1,4 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,7 +20,7 @@
 </head>
 <body>
 <div class="container">
-    <form class="form-horizontal" method="GET" action="/submit_entry" novalidate="novalidate">
+    <form class="form-horizontal" method="GET" action="/payment_confirmation" novalidate="novalidate">
         <div class="panel panel-flat">
             <div class="panel-heading" style="padding-top: 20px;">
                 <h1 class="panel-title text-info">ArteART Prize Laguna 17.18</h1>
@@ -27,40 +28,51 @@
         </div>
         <div class="panel panel-flat col-lg-12" name="documentoidentita" id="documentoidentita">
             <div class="panel-heading">
-                <h5 class="panel-title text-info">ID CARD</h5>
+                <h5 class="panel-title text-info">YOUR WORK</h5>
             </div>
 
             <div class="panel-body">
                 <div class="form-group">
-                    <div class="row">
+                    <div class="row" style="padding-top: 20px;">
                         <div class="col-lg-2"></div>
-                        <div class="col-lg-9"><p>To be entitled to the reduced fee reserved to the UNDER-25 artists, you
-                            have to upload a copy of your ID card. Admitted format JPG, DOC or PDF Max 2MB</p></div>
+                        <div class="col-lg-9"><p>Upload a copy of your work.</p></div>
                         <div class="col-lg-1"></div>
                     </div>
-                    <!-- campo upload documento  -->
                     <div class="row">
                         <div class="col-lg-1"></div>
-                        <label class="control-label col-lg-1"><span class="text-info">Id card</span><br>Doc, jpg or pdf
-                            file</label>
+                        <label class="control-label col-lg-1"><span class="text-info">Your work</span></label>
                         <div class="col-lg-9">
                             <div class="form-group">
                                 <input type="file" class="form-control-file" id="exampleInputFile"
                                        aria-describedby="fileHelp">
-                                <small id="fileHelp" class="form-text text-muted">2 mb max</small>
                             </div>
                         </div>
                     </div>
-                    <!-- fine upload documento -->
-
-
+                    <div class="row">
+                        <div class="col-lg-1"></div>
+                        <label class="control-label col-lg-1"><span class="text-info">Category</span></label>
+                        <div class="col-lg-9">
+                            <div class="form-group">
+                                <select class="form-control" id="category" name="category" required="">
+                                    <option></option>
+                                    <option value="1">Painting</option>
+                                    <option value="2">Photography</option>
+                                    <option value="3">Sculpture and installation</option>
+                                    <option value="4">Video art and short-term films</option>
+                                    <option value="5">Performances</option>
+                                    <option value="6">Virtual art</option>
+                                    <option value="7">Digital graphics</option>
+                                    <option value="8">Environmental art</option>
+                                    <option value="9">Urban art</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-lg-1"></div>
+                    </div>
                 </div>
-
             </div>
         </div>
         <div class="panel panel-flat col-lg-12">
-
-
             <div class="panel-body">
                 <div class="form-group">
                     <div class="row" style="padding-top: 20px;">
@@ -79,4 +91,3 @@
 </div>
 </body>
 </html>
-
