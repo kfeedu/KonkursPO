@@ -50,7 +50,7 @@
 
     <div class="btn-group btn-group-justified">
         <a href="/pu1" class="btn btn-info">PU1</a>
-        <a href="#" class="btn btn-info">PU2</a>
+        <a href="/pu2" class="btn btn-info">PU2</a>
         <a href="#" class="btn btn-info">PU3</a>
     </div>
 </div>

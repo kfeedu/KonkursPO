@@ -45,5 +45,11 @@ public class HomePageController {
         return "pu1_complete";
     }
 
+    @RequestMapping(value = {"/pu2"}, method = RequestMethod.GET)
+    public String pu2() { return "pu2_artwork_overview";}
+
+    @RequestMapping(value = {"/rate_artwork"}, method = RequestMethod.GET)
+    public String pu2_artwork_review() { return "pu2_artwork_review";}
+
 
 }
