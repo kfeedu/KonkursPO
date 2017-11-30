@@ -22,8 +22,19 @@
 
 </head>
 <body>
-<div class="jumbotron">
-    <h3>Oceń pracę</h3>
+<div class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12"><h1 class="display-1 text-info">Oceń pracę</h1></div>
+        </div>
+    </div>
+</div>
+<div class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12"><h1 class="">6 - John Smith</h1></div>
+        </div>
+    </div>
 </div>
 <div class="container-fluid">
     <div class="text-center">
@@ -32,29 +43,45 @@
     </div>
     <form>
         <div class="form-group">
-            <label for="rating" class="control-label">Ocena:</label>
-            <select id="rating" class="form-control">
-                <option>1</option>
-                <option>2</option>
-                <option>3</option>
-                <option>4</option>
-                <option>5</option>
-                <option>6</option>
-                <option>7</option>
-                <option>8</option>
-                <option>9</option>
-                <option>10</option>
-            </select>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <label for="rating" class="control-label">Ocena:</label>
+                        <select id="rating" class="form-control">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                            <option>7</option>
+                            <option>8</option>
+                            <option>9</option>
+                            <option>10</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <div class="form-group">
-            <label for="comment">Komentarz:</label>
-            <textarea id="comment" type="text" class="form-control" rows="5"></textarea>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <label for="comment">Komentarz:</label>
+                        <textarea id="comment" type="text" class="form-control" rows="5"></textarea>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="form-group">
-            <%--<div class="col-md-offset-2 col-md-10">--%>
-                <button class="btn btn-success btn-block">OCEŃ</button>
-            <%--</div>--%>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <button class="btn btn-info btn-block">OCEŃ</button>
+                    </div>
+                </div>
+            </div>
         </div>
     </form>
 </div>
