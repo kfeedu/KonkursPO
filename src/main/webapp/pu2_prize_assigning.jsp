@@ -34,46 +34,57 @@
 <div class="py-5">
     <div class="container">
         <div class="row">
-            <div class="col-md-12"><h1 class="display-1">Przyznaj nagrodę</h1></div>
+            <div class="col-md-12"><h1 class="display-1 text-info">Przyznaj nagrodę</h1></div>
         </div>
     </div>
 </div>
-<div class="py-5">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12"><h1 class="">6 - John Smith</h1></div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h4 class="display-4">Kategoria: Painting</h4>
         </div>
     </div>
 </div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12"><h1 class="">6 - John Smith</h1></div>
+    </div>
+</div>
+</div>
 <div class="py-5">
+
     <div class="container">
         <div class="row">
-            <div class="col-md-12"><img class="img-fluid d-block mx-auto"
-                                        src="https://img-ovh-cloud.zszywka.pl/0/0170/6690-quotplonaca-zyrafaquot--salvador-da.jpg" width="500"
+            <div class="col-md-12"><img class="img-fluid thumbnail d-block mx-auto"
+                                        src="https://img-ovh-cloud.zszywka.pl/0/0170/6690-quotplonaca-zyrafaquot--salvador-da.jpg"
+                                        width="500"
                                         height="500"></div>
         </div>
     </div>
 </div>
-<div class="py-5">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="btn-group btn-group-sm">
-                    <button class="btn dropdown-toggle" data-toggle="dropdown"> Dropdown</button>
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item" href="#">500 Euro and digital catalogue</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">7.000,00 Euro</a>
-                    </div>
+</div>
+</div>
+
+<form>
+    <div class="form-group">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <label for="prize" class="control-label">Nagroda:</label>
+                    <select id="prize" class="form-control">
+                        <option>500 Euro and a dedicated digital catalogue</option>
+                        <option>7.000 Euro</option>
+                    </select>
                 </div>
             </div>
         </div>
     </div>
-</div>
+</form>
 <div class="py-5">
     <div class="container">
         <div class="row">
-            <div class="col-md-12"><a class="btn btn-primary w-100" href="/pu2">Przyznaj</a></div>
+            <div class="col-md-12"><a class="btn btn-info w-100" href="/pu2">Przyznaj</a></div>
         </div>
     </div>
 </div>

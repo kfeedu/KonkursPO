@@ -35,7 +35,7 @@
 <div class="py-5">
     <div class="container">
         <div class="row">
-            <div class="col-md-12"><h1 class="display-1">Ocena pracy</h1></div>
+            <div class="col-md-12"><h1 class="display-1 text-info">Ocena pracy</h1></div>
         </div>
     </div>
 </div>
@@ -55,24 +55,20 @@
         </div>
     </div>
 </div>
-<div class="py-5">
     <div class="container">
         <div class="row">
-            <div class="col-md-12"><p class="">Ocena: 7</p></div>
-        </div>
+            <div class="col-md-12"><h3 class="">Ocena: 7</h3></div>
+    </div>
+</div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12"><h3 class="">Komentarz:</h3></div>
     </div>
 </div>
 <div class="py-5">
     <div class="container">
         <div class="row">
-            <div class="col-md-12"><p class="">Komentarz:</p></div>
-        </div>
-    </div>
-</div>
-<div class="py-5">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12"><a class="btn btn-primary w-100" href="/pu2">Zamknij</a></div>
+            <div class="col-md-12"><a class="btn btn-info w-100" href="/pu2">Zamknij</a></div>
         </div>
     </div>
 </div>
