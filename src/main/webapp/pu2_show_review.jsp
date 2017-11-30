@@ -1,3 +1,4 @@
+<html>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -34,7 +35,7 @@
 <div class="py-5">
     <div class="container">
         <div class="row">
-            <div class="col-md-12"><h1 class="display-1">Przyznaj nagrodę</h1></div>
+            <div class="col-md-12"><h1 class="display-1">Ocena pracy</h1></div>
         </div>
     </div>
 </div>
@@ -49,7 +50,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12"><img class="img-fluid d-block mx-auto"
-                                        src="https://img-ovh-cloud.zszywka.pl/0/0170/6690-quotplonaca-zyrafaquot--salvador-da.jpg" width="500"
+                                        src="https://beks.pl/wp-content/uploads/2015/05/beks_str_glowna_obraz_3.jpg" width="500"
                                         height="500"></div>
         </div>
     </div>
@@ -57,23 +58,21 @@
 <div class="py-5">
     <div class="container">
         <div class="row">
-            <div class="col-md-12">
-                <div class="btn-group btn-group-sm">
-                    <button class="btn dropdown-toggle" data-toggle="dropdown"> Dropdown</button>
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item" href="#">500 Euro and digital catalogue</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">7.000,00 Euro</a>
-                    </div>
-                </div>
-            </div>
+            <div class="col-md-12"><p class="">Ocena: 7</p></div>
         </div>
     </div>
 </div>
 <div class="py-5">
     <div class="container">
         <div class="row">
-            <div class="col-md-12"><a class="btn btn-primary w-100" href="/pu2">Przyznaj</a></div>
+            <div class="col-md-12"><p class="">Komentarz:</p></div>
+        </div>
+    </div>
+</div>
+<div class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12"><a class="btn btn-primary w-100" href="/pu2">Zamknij</a></div>
         </div>
     </div>
 </div>

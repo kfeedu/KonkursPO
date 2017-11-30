@@ -51,5 +51,10 @@ public class HomePageController {
     @RequestMapping(value = {"/rate_artwork"}, method = RequestMethod.GET)
     public String pu2_artwork_review() { return "pu2_artwork_review";}
 
+    @RequestMapping(value = {"/assign_prize"}, method = RequestMethod.GET)
+    public String pu2_prize_assigning() { return "pu2_prize_assigning";}
+
+    @RequestMapping(value = {"/show_review"}, method = RequestMethod.GET)
+    public String pu2_show_review() { return "pu2_show_review";}
 
 }
